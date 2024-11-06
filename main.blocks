@@ -1,0 +1,13 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables></variables><block type="device_forever" id="9ewSQZ!6m(*-r9RGFp)z" x="0" y="0"><statement name="HANDLER"><block type="controls_if" id="=s%c(H%(#~-YE0{o?[TK"><mutation else="1"></mutation><value name="IF0"><shadow type="logic_boolean" id="eLZ[rjRvc),M,sl${j*I"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="R8YO]aGP8G#uxx|_3IG^"><field name="OP">GT</field><value name="A"><shadow type="math_number" id="n@oOs%(hTc^|MP$fCV9G"><field name="NUM">0</field></shadow><block type="device_get_light_level" id="qi8ZU:I~qP*J+Dv6#Z=N"></block></value><value name="B"><shadow type="math_number" id="63K][L?l5kLqS%3i~r}u"><field name="NUM">50</field></shadow></value></block></value><statement name="DO0"><block type="device_show_leds" id=")v)6lCCbpO`;l6^[3%Rz"><field name="LEDS">`
+        # # . # # 
+        # # . # # 
+        . . . . . 
+        # . . . # 
+        . # # # .
+        `</field><next><block type="device_clear_display" id="_X.AMvI:2y}YE/du-/n3"></block></next></block></statement><statement name="ELSE"><block type="device_show_leds" id="WyyuVhSIp[;YW3bBT;MJ"><field name="LEDS">`
+        . . . . . 
+        # # . # # 
+        . . . . . 
+        . . . . . 
+        # # # # #
+        `</field><next><block type="device_clear_display" id="c-G;S2P;pIbrt3S4h[9@"></block></next></block></statement></block></statement></block></xml>
